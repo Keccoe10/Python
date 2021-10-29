@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def ex(matches, k):
 #devo creare la lista togliendo gli spazi e i tab
     lista = []
