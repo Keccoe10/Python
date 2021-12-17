@@ -1,0 +1,16 @@
+# immagine è la riga quella da tre es((128, 0, 128), (228, 96, 228), (0, 255, 128))
+def appendiff1(immagine):
+    print(immagine)
+    for i in range(len(immagine)-1):
+        j=i+1
+        for q in range(len(immagine[i])-1):
+                if immagine[i][q+1]!=immagine[i][q+1] and immagine[j][q+1]!=immagine[j][q+1] and  immagine[j][q]!=immagine[i][q] and immagine[i][q]!= immagine[j][q+1] and immagine[i][q+1]!= immagine[j][q]:
+                    print(immagine)
+                    c=1
+                else:
+                    
+                    c=0
+                    break
+        
+
+    return c
